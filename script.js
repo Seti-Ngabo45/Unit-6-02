@@ -1,7 +1,7 @@
-document.getElementById('submit').addEventListener('click',integer)
+document.getElementById('submit').addEventListener('click' ,integer)
 
 function integer () {
-  let n = document.getElementById('answer').value;
+  const n = document.getElementById('answer').value
   if (n < 0) {
     alert('The number is negative')
   } else if (n > 0) {
