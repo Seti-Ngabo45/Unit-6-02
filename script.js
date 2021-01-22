@@ -1,4 +1,4 @@
-document.getElementById('submit').addEventListener('click' ,integer)
+document.getElementById('submit').addEventListener('click',integer) 
 
 function integer () {
   const n = document.getElementById('answer').value
